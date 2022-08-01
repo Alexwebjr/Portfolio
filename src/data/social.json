@@ -1,0 +1,24 @@
+{
+  "social-links": [
+    {
+      "name": "linkedin",
+      "url": "facebook/link.com",
+      "icon": "fa-linkedin-in"
+    },
+    {
+      "name": "twitter",
+      "url": "twitter/link.com",
+      "icon": "fa-twitter"
+    },
+    {
+      "name": "instagram",
+      "url": "instagram/link.com",
+      "icon": "fa-facebook-f"
+    },
+    {
+      "name": "facebook",
+      "url": "facebook/link.com",
+      "icon": "fa-facebook-f"
+    }
+  ]
+}

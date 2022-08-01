@@ -1,0 +1,12 @@
+[
+  {
+    "tittle": "Todo es Psicológico",
+    "description": "Short text to show...",
+    "content": "Long text to show...",
+    "date": "12/12/2022",
+    "imageUrl": "blog1.jpg",
+    "bgImageUrl": "blog1.jpg",
+    "category": "motivation",
+    "tags": "motivations, inspiration, challenge"
+  }
+]

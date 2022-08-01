@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Node.js",
+    "imageUrl": "node.jpg",
+    "category": "back-end",
+    "certificates": []
+  },
+  {
+    "name": "CSS",
+    "imageUrl": "css.jpg",
+    "category": "front-end",
+    "certificates": []
+  }
+]
