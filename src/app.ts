@@ -1,4 +1,6 @@
 import path from 'path';
+import * as dotenv from 'dotenv';
+dotenv.config({ path: './config.env' });
 import express, { Request, Response, NextFunction } from 'express';
 import ejs from 'ejs';
 import { json } from 'body-parser';
@@ -26,5 +28,6 @@ app.use((err: Error, req: Request, res: Response, next: NextFunction) => {
 });
 //-------------------------------------
 //------------- LISTEN ----------------
-
-app.listen(3000);
+app.listen(process.env.PORT, () => {
+  console.log(`App runing on port: http://localhost:${process.env.PORT}`);
+});

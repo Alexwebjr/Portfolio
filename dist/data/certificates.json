@@ -1,19 +1,25 @@
 [
   {
-    "tittle": "node.js",
-    "imageUrl": "node.jpg",
+    "name": "Alejandro Cortorreal",
+    "title": "node.js",
+    "imageUrl": "typescript.jpg",
+    "url": "node.pdf",
     "company": "UDEMY",
     "date": "12/12/2018"
   },
   {
-    "tittle": "TypeScript",
-    "imageUrl": "node.jpg",
+    "name": "Alejandro Cortorreal",
+    "title": "TypeScript",
+    "imageUrl": "typescript.jpg",
+    "url": "typescript.pdf",
     "company": "UDEMY",
     "date": "12/12/2018"
   },
   {
-    "tittle": "AWS",
-    "imageUrl": "node.jpg",
+    "name": "Alejandro Cortorreal",
+    "title": "AWS",
+    "imageUrl": "typescript.jpg",
+    "url": "aws.pdf",
     "company": "Coursera",
     "date": "12/12/2018"
   }

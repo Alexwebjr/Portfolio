@@ -1,16 +1,14 @@
 [
   {
-    "tittle": "Frontend Development",
-    "organization": "ITLA",
-    "year": 2016,
-    "description": "Aliquam tincidunt malesuada tortor vitae iaculis. In eu turpis iaculis, feugiat risus quis, aliquet urna. Quisque fringilla mollis risus, eu pulvinar dolor.",
-    "certificates": []
+    "title": "Computer Engineering",
+    "organization": "University O & M",
+    "year": "2011-2016",
+    "description": "Aliquam tincidunt malesuada tortor vitae iaculis. In eu turpis iaculis, feugiat risus quis, aliquet urna."
   },
   {
-    "tittle": "Frontend Development",
+    "title": "Frontend Development",
     "organization": "ITLA",
     "year": 2016,
-    "description": "Aliquam tincidunt malesuada tortor vitae iaculis. In eu turpis iaculis, feugiat risus quis, aliquet urna. Quisque fringilla mollis risus, eu pulvinar dolor.",
-    "certificates": []
+    "description": "Quisque fringilla mollis risus, eu pulvinar dolor."
   }
 ]

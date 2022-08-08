@@ -4,23 +4,15 @@
     "company": "ITLA",
     "from": 2016,
     "to": 2016,
-    "description": "Aliquam tincidunt malesuada tortor vitae iaculis. In eu turpis iaculis, feugiat risus quis, aliquet urna. Quisque fringilla mollis risus, eu pulvinar dolor.",
-    "technologies": []
+    "description": "Aliquam tincidunt malesuada tortor vitae iaculis. In eu turpis iaculis, feugiat ",
+    "skills": ["C#, Asp.Net, PHP"]
   },
   {
     "role": "Frontend Development 2",
     "company": "ITLA",
     "from": 2016,
     "to": 2016,
-    "description": "Aliquam tincidunt malesuada tortor vitae iaculis. In eu turpis iaculis, feugiat risus quis, aliquet urna. Quisque fringilla mollis risus, eu pulvinar dolor.",
-    "technologies": []
-  },
-  {
-    "role": "Frontend Development 3",
-    "company": "ITLA",
-    "from": 2016,
-    "to": 2016,
-    "description": "Aliquam tincidunt malesuada tortor vitae iaculis. In eu turpis iaculis, feugiat risus quis, aliquet urna. Quisque fringilla mollis risus, eu pulvinar dolor.",
-    "technologies": []
+    "description": "Aliquam tincidunt malesuada tort",
+    "skills": ["C#, Asp.Net, PHP"]
   }
 ]
