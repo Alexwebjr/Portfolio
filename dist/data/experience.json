@@ -1,18 +1,56 @@
 [
   {
-    "role": "Frontend Development",
-    "company": "ITLA",
-    "from": 2016,
-    "to": 2016,
-    "description": "Aliquam tincidunt malesuada tortor vitae iaculis. In eu turpis iaculis, feugiat ",
-    "skills": ["C#, Asp.Net, PHP"]
+    "role": "Programmer analyst",
+    "company": "9-1-1",
+    "url": "https://911.gob.do",
+    "from": 2021,
+    "to": "current",
+    "description": "National System for Attention to Emergencies and Security (9-1-1)",
+    "skills": [
+      "JavaScript",
+      "C#",
+      "Asp.Net",
+      "DevExpress",
+      "SCRUM",
+      "MSSQL",
+      "Semantic UI",
+      "Bootstrap"
+    ]
   },
   {
-    "role": "Frontend Development 2",
-    "company": "ITLA",
+    "role": "Supervisor E-learning platforms",
+    "company": "UNIBE",
+    "url": "https://unibe.edu.do",
+    "from": 2020,
+    "to": 2021,
+    "description": "Development of systems within educational technology standards that make learning management viable.",
+    "skills": ["JavaScript", "PHP", "Laravel", "MySQL", "Materialize CSS"]
+  },
+  {
+    "role": "Web Developer",
+    "company": "WELLTECH",
+    "url": "https://welltech.do",
+    "from": 2019,
+    "to": 2020,
+    "description": "Development of systems.",
+    "skills": ["JavaScript", "C#", "Asp.Net", "PHP", "Bootstrap", "Zoho CRM"]
+  },
+  {
+    "role": "Web Developer",
+    "company": "Freelancer",
+    "url": "https://webbless.com.do",
     "from": 2016,
-    "to": 2016,
-    "description": "Aliquam tincidunt malesuada tort",
-    "skills": ["C#, Asp.Net, PHP"]
+    "to": "current",
+    "description": "Development of websites.",
+    "skills": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "PHP",
+      "MSSQL",
+      "WordPress",
+      "Bootstrap",
+      "NodeJs"
+    ]
   }
 ]

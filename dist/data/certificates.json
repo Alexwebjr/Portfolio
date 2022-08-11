@@ -1,14 +1,33 @@
 [
   {
-    "name": "Alejandro Cortorreal",
+    "title": "Microservices",
+    "imageUrl": "Microservices.jpg",
+    "url": "aws.pdf",
+    "company": "Coursera",
+    "date": "12/12/2018"
+  },
+  {
+    "title": "Unit Testing",
+    "imageUrl": "Unit Testing.jpg",
+    "url": "aws.pdf",
+    "company": "Coursera",
+    "date": "12/12/2018"
+  },
+  {
+    "title": "AWS",
+    "imageUrl": "aws.jpg",
+    "url": "aws.pdf",
+    "company": "Coursera",
+    "date": "12/12/2018"
+  },
+  {
     "title": "node.js",
-    "imageUrl": "typescript.jpg",
+    "imageUrl": "nodejs.jpg",
     "url": "node.pdf",
     "company": "UDEMY",
     "date": "12/12/2018"
   },
   {
-    "name": "Alejandro Cortorreal",
     "title": "TypeScript",
     "imageUrl": "typescript.jpg",
     "url": "typescript.pdf",
@@ -16,9 +35,8 @@
     "date": "12/12/2018"
   },
   {
-    "name": "Alejandro Cortorreal",
-    "title": "AWS",
-    "imageUrl": "typescript.jpg",
+    "title": "JavaScript",
+    "imageUrl": "JavaScript2.jpg",
     "url": "aws.pdf",
     "company": "Coursera",
     "date": "12/12/2018"

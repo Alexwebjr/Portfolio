@@ -49,7 +49,7 @@
         <header id="site_header" class="header mobile-menu-hide">
           <div class="header-content">
             <div class="header-photo">
-              <img src="img/main_photo.jpg" alt="Alex Smith" />
+              <img src="img/me.jpg" alt="Alex Smith" />
             </div>
             <div class="header-titles">
               <h2><%= about.Fullname %></h2>
@@ -99,24 +99,18 @@
 
           <div class="social-links">
             <ul>
-              <li>
-                <a href="#" target="_blank"
-                  ><i class="fab fa-linkedin-in"></i
-                ></a>
-              </li>
-              <li>
-                <a href="#" target="_blank"
-                  ><i class="fab fa-facebook-f"></i
-                ></a>
-              </li>
-              <li>
-                <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
-              </li>
+              <% about.links.forEach((val,i)=>{ %>
+                <li>
+                  <a href="<%= val.url %>" target="_blank"
+                    ><i class="fab <%= val.icon %>"></i
+                  ></a>
+                </li>
+                <% }); %>
             </ul>
           </div>
 
           <div class="header-buttons">
-            <a href="#" target="_blank" class="btn btn-primary">Download CV</a>
+            <a href="/pdf/resume.pdf" target="_blank" class="btn btn-primary">Download CV</a>
           </div>
 
           <div class="copyrights">
@@ -229,34 +223,18 @@
                 </div>
 
                 <div class="row">
+                  
                   <div class="col-xs-12 col-sm-6">
                     <div class="col-inner">
                       <div class="info-list-w-icon">
                         <div class="info-block-w-icon">
                           <div class="ci-icon">
-                            <i class="lnr lnr-store"></i>
-                          </div>
-                          <div class="ci-text">
-                            <h4>Ecommerce</h4>
-                            <p>
-                              Pellentesque pellentesque, ipsum sit amet auctor
-                              accumsan, odio tortor bibendum massa, sit amet
-                              ultricies ex lectus scelerisque nibh. Ut non
-                              sodales.
-                            </p>
-                          </div>
-                        </div>
-                        <div class="info-block-w-icon">
-                          <div class="ci-icon">
                             <i class="lnr lnr-laptop-phone"></i>
                           </div>
                           <div class="ci-text">
-                            <h4>Web Design</h4>
+                            <h4>Web Develop</h4>
                             <p>
-                              Pellentesque pellentesque, ipsum sit amet auctor
-                              accumsan, odio tortor bibendum massa, sit amet
-                              ultricies ex lectus scelerisque nibh. Ut non
-                              sodales.
+                              I can design your website or web application. Taking care of all the technical aspects and how the user sees it and interacts with it.
                             </p>
                           </div>
                         </div>
@@ -269,35 +247,20 @@
                       <div class="info-list-w-icon">
                         <div class="info-block-w-icon">
                           <div class="ci-icon">
-                            <i class="lnr lnr-pencil"></i>
+                            <i class="lnr lnr-store"></i>
                           </div>
                           <div class="ci-text">
-                            <h4>Copywriting</h4>
+                            <h4>Ecommerce</h4>
                             <p>
-                              Pellentesque pellentesque, ipsum sit amet auctor
-                              accumsan, odio tortor bibendum massa, sit amet
-                              ultricies ex lectus scelerisque nibh. Ut non
-                              sodales.
-                            </p>
-                          </div>
-                        </div>
-                        <div class="info-block-w-icon">
-                          <div class="ci-icon">
-                            <i class="lnr lnr-flag"></i>
-                          </div>
-                          <div class="ci-text">
-                            <h4>Management</h4>
-                            <p>
-                              Pellentesque pellentesque, ipsum sit amet auctor
-                              accumsan, odio tortor bibendum massa, sit amet
-                              ultricies ex lectus scelerisque nibh. Ut non
-                              sodales.
+                              I can design your ecommerce, help you with your inventory, take orders, show your product billboard, receive payments, sent emails, etc.
                             </p>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
+
+                  
                 </div>
                 <!-- End of Services -->
 
@@ -411,7 +374,7 @@
             </section>
             <!-- End of About Me Subpage -->
 
-            <!-- Resume Subpage -->
+            <!-- RESUME Subpage -->
             <section data-id="resume" class="animated-section">
               <div class="section-content">
                 <div class="page-title">
@@ -420,33 +383,6 @@
 
                 <div class="row">
                   <div class="col-xs-12 col-sm-7">
-                    <div class="block-title">
-                      <h3>Education</h3>
-                    </div>
-
-                    <!--EDUCATION-->
-                    <div class="timeline timeline-second-style clearfix">
-                      <% education.forEach((val,i)=>{ %>
-                        <div class="timeline-item clearfix">
-                          <div class="left-part">
-                            <h5 class="item-period"><%= val.year %></h5>
-                            <span class="item-company"
-                              ><%= val.organization %></span
-                            >
-                          </div>
-                          <div class="divider"></div>
-                          <div class="right-part">
-                            <h4 class="item-title"><%= val.title %></h4>
-                            <p>
-                              <%= val.description %>
-                            </p>
-                          </div>
-                        </div>
-                      <% }); %>
-                    </div>
-
-                    <div class="white-space-50"></div>
-                    
                     <!--EXPERIENCE-->
                     <div class="block-title">
                       <h3>Experience</h3>
@@ -468,6 +404,33 @@
                             <p><strong><i>Skills:</strong>
                               <%= val.skills.join(", ") %>
                             </i></p>
+                          </div>
+                        </div>
+                      <% }); %>
+                    </div>
+
+                    <div class="white-space-50"></div>
+
+                    <!--EDUCATION-->
+                    <div class="block-title">
+                      <h3>Education</h3>
+                    </div>
+
+                    <div class="timeline timeline-second-style clearfix">
+                      <% education.forEach((val,i)=>{ %>
+                        <div class="timeline-item clearfix">
+                          <div class="left-part">
+                            <h5 class="item-period"><%= val.year %></h5>
+                            <span class="item-company"
+                              ><%= val.organization %></span
+                            >
+                          </div>
+                          <div class="divider"></div>
+                          <div class="right-part">
+                            <h4 class="item-title"><%= val.title %></h4>
+                            <p>
+                              <%= val.description %>
+                            </p>
                           </div>
                         </div>
                       <% }); %>
@@ -537,7 +500,7 @@
             </section>
             <!-- End of Resume Subpage -->
 
-            <!-- Portfolio Subpage -->
+            <!-- PORTFOLIO Subpage -->
             <section data-id="portfolio" class="animated-section">
               <div class="section-content">
                 <div class="page-title">
@@ -600,8 +563,9 @@
                                 title=""
                               />
                               <a
-                                href="portfolio-1.html"
-                                class="ajax-page-load"
+                                href="<%= val.url %>"
+                                class=""
+                                target="_blank"
                               ></a>
                             </div>
 
@@ -713,7 +677,7 @@
 
                   <!-- Contact Form -->
                   <div class="col-xs-12 col-sm-8">
-                    <div id="map" class="map"></div>
+                    <!--div id="map" class="map"></div-->
                     <div class="block-title">
                       <h3>How Can I <span>Help You?</span></h3>
                     </div>

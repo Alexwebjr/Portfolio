@@ -1,38 +1,182 @@
 [
   {
-    "name": "Node.js",
-    "imageUrl": "node.jpg",
-    "category": "back-end",
+    "name": "HTML",
+    "imageUrl": "html.jpg",
+    "category": ["front-end"],
     "certificates": []
   },
   {
     "name": "CSS",
     "imageUrl": "css.jpg",
-    "category": "front-end",
+    "category": ["front-end"],
+    "certificates": []
+  },
+  {
+    "name": "Javascript",
+    "imageUrl": "node.jpg",
+    "category": ["back-end", "front-end"],
+    "certificates": []
+  },
+  {
+    "name": "Bootstrap",
+    "imageUrl": "css.jpg",
+    "category": ["front-end"],
+    "certificates": []
+  },
+  {
+    "name": "WordPress",
+    "imageUrl": "css.jpg",
+    "category": ["front-end"],
+    "certificates": []
+  },
+  {
+    "name": "Shopify",
+    "imageUrl": "css.jpg",
+    "category": ["front-end"],
+    "certificates": []
+  },
+  {
+    "name": "C#",
+    "imageUrl": "css.jpg",
+    "category": ["back-end"],
+    "certificates": []
+  },
+  {
+    "name": "ASP.NET",
+    "imageUrl": "css.jpg",
+    "category": ["back-end"],
+    "certificates": []
+  },
+  {
+    "name": "Entity Framework",
+    "imageUrl": "css.jpg",
+    "category": ["back-end"],
+    "certificates": []
+  },
+  {
+    "name": ".NET Core",
+    "imageUrl": "css.jpg",
+    "category": ["back-end"],
+    "certificates": []
+  },
+  {
+    "name": "Microsoft SQL Server",
+    "imageUrl": "css.jpg",
+    "category": ["back-end"],
+    "certificates": []
+  },
+  {
+    "name": "DevExpress",
+    "imageUrl": "css.jpg",
+    "category": ["back-end"],
     "certificates": []
   },
   {
     "name": "Node.js",
-    "imageUrl": "node.jpg",
-    "category": "back-end",
-    "certificates": []
-  },
-  {
-    "name": "CSS",
     "imageUrl": "css.jpg",
-    "category": "front-end",
+    "category": ["back-end"],
     "certificates": []
   },
   {
-    "name": "Node.js",
-    "imageUrl": "node.jpg",
-    "category": "back-end",
-    "certificates": []
-  },
-  {
-    "name": "CSS",
+    "name": "Express.js",
     "imageUrl": "css.jpg",
-    "category": "front-end",
+    "category": ["back-end"],
+    "certificates": []
+  },
+  {
+    "name": "MongoDB",
+    "imageUrl": "css.jpg",
+    "category": ["back-end"],
+    "certificates": []
+  },
+  {
+    "name": "GraphQL",
+    "imageUrl": "css.jpg",
+    "category": ["back-end"],
+    "certificates": []
+  },
+  {
+    "name": "Deno",
+    "imageUrl": "css.jpg",
+    "category": ["back-end"],
+    "certificates": []
+  },
+  {
+    "name": "Socket.IO",
+    "imageUrl": "css.jpg",
+    "category": ["back-end"],
+    "certificates": []
+  },
+  {
+    "name": "TypeScript",
+    "imageUrl": "css.jpg",
+    "category": ["back-end"],
+    "certificates": []
+  },
+  {
+    "name": "Sequelize",
+    "imageUrl": "css.jpg",
+    "category": ["back-end"],
+    "certificates": []
+  },
+  {
+    "name": "AWS",
+    "imageUrl": "css.jpg",
+    "category": ["back-end"],
+    "certificates": []
+  },
+  {
+    "name": "Microservices",
+    "imageUrl": "css.jpg",
+    "category": ["back-end"],
+    "certificates": []
+  },
+  {
+    "name": "Jest",
+    "imageUrl": "css.jpg",
+    "category": ["back-end"],
+    "certificates": []
+  },
+  {
+    "name": "Vitest",
+    "imageUrl": "css.jpg",
+    "category": ["back-end"],
+    "certificates": []
+  },
+  {
+    "name": "Unit Testing",
+    "imageUrl": "css.jpg",
+    "category": ["back-end"],
+    "certificates": []
+  },
+  {
+    "name": "Vue",
+    "imageUrl": "css.jpg",
+    "category": ["back-end"],
+    "certificates": []
+  },
+  {
+    "name": "Vuex",
+    "imageUrl": "css.jpg",
+    "category": ["back-end"],
+    "certificates": []
+  },
+  {
+    "name": "PHP",
+    "imageUrl": "css.jpg",
+    "category": ["back-end"],
+    "certificates": []
+  },
+  {
+    "name": "Laravel",
+    "imageUrl": "css.jpg",
+    "category": ["back-end"],
+    "certificates": []
+  },
+  {
+    "name": "MySQL",
+    "imageUrl": "css.jpg",
+    "category": ["back-end"],
     "certificates": []
   }
 ]

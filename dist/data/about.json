@@ -1,10 +1,32 @@
 {
   "Fullname": "Alejandro Cortorreal",
   "Role": ["Computer Engineering", "Full-Stack Developer"],
-  "AboutMe": "Aliquam vitae hendrerit dolor, eget imperdiet mauris. Maecenas et ante id ipsum condimentum dictum et vel massa. Ut in imperdiet dolor, vel consectetur dui.",
+  "AboutMe": "Passionate about web development, technologies and music. Believer that personal growth depends on how you manage your days and resources. That is why I seek to develop myself day by day, achieve goals, be a better version of myself that can serve the company/client that needs my skills with excellence.",
   "Age": 28,
   "Residense": "Dominican Republic",
   "Address": "Santo Domingo, Santo Domingo Norte",
   "email": ["alexwebjr@gmail.com", "alejandrocortorreal18@gmail.com"],
-  "Phone": "+1 849 284 1274"
+  "Phone": "+1 849 284 1274",
+  "links": [
+    {
+      "name": "linkedin",
+      "url": "https://www.linkedin.com/in/alejandro-cortorreal-200523129",
+      "icon": "fa-linkedin-in"
+    },
+    {
+      "name": "twitter",
+      "url": "https://twitter.com/Alexwebjr",
+      "icon": "fa-twitter"
+    },
+    {
+      "name": "instagram",
+      "url": "https://www.instagram.com/alexweb18",
+      "icon": "fa-instagram"
+    },
+    {
+      "name": "facebook",
+      "url": "https://www.facebook.com/alejandrocortorreal18",
+      "icon": "fa-facebook-f"
+    }
+  ]
 }

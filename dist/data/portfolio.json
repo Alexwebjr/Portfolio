@@ -1,29 +1,52 @@
 [
   {
-    "title": "Natours",
-    "description": "Text for the description of the project.",
+    "title": "Tasalo",
+    "description": "Request and pay appraisal online.",
     "imageUrl": "natour.jpg",
-    "date": "12/12/2022",
-    "url": "natours.com",
-    "skills": [],
-    "skill_slug": ["category_all", "category_nodejs"]
+    "date": "2019",
+    "url": "http://tasalo.com",
+    "category": "C#/ASP.NET",
+    "skill_slug": ["\"category_all\"", "\"category_asp\""],
+    "skills": []
   },
   {
-    "title": "Natours",
-    "description": "Text for the description of the project.",
+    "title": "Leja Car Rental",
+    "description": "Website, mailings, services, online car rental.",
     "imageUrl": "natour.jpg",
-    "date": "12/12/2022",
-    "url": "natours.com",
-    "skills": [],
-    "skill_slug": ["category_all", "category_nodejs"]
+    "date": "06/06/2020",
+    "url": "https://leja.com.do",
+    "category": "Wordpress",
+    "skill_slug": ["\"category_all\"", "\"category_wordpress\""],
+    "skills": []
   },
   {
-    "title": "Natours",
-    "description": "Text for the description of the project.",
+    "title": "Cocodrilo Auto Detailing",
+    "description": "Website, mailings, services, online appointments.",
     "imageUrl": "natour.jpg",
-    "date": "12/12/2022",
-    "url": "natours.com",
-    "skills": [],
-    "skill_slug": ["category_all", "category_nodejs"]
+    "date": "06/06/2019",
+    "url": "https://cocodriloautodetailing.com",
+    "category": "Wordpress",
+    "skill_slug": ["\"category_all\"", "\"category_wordpress\""],
+    "skills": []
+  },
+  {
+    "title": "Zion Optical",
+    "description": "Website, mailings, services.",
+    "imageUrl": "natour.jpg",
+    "date": "06/06/2017",
+    "url": "https://zionopticalrd.com",
+    "category": "Wordpress",
+    "skill_slug": ["\"category_all\"", "\"category_wordpress\""],
+    "skills": []
+  },
+  {
+    "title": "COMSUMA L.L.C.",
+    "description": "Website, mailings, services.",
+    "imageUrl": "natour.jpg",
+    "date": "06/06/2016",
+    "url": "https://comsuma.com",
+    "category": "Wordpress",
+    "skill_slug": ["\"category_all\"", "\"category_wordpress\""],
+    "skills": []
   }
 ]
