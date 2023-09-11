@@ -6,9 +6,15 @@
     "description": "Bachelor of science in Computer Systems Engineering."
   },
   {
-    "title": "Frontend Development",
+    "title": "Front-end Development",
     "organization": "ITLA",
     "year": 2016,
-    "description": "Web Design, html, css, javascript, wordpress, SEO, etc."
+    "description": "Web Design, html, css, javascript, wordpress, React, Angular, SEO, etc."
+  },
+  {
+    "title": "Back-end Development",
+    "organization": "Linkeding Learning",
+    "year": 2018,
+    "description": "C#, Javascript, PHP, Node.Js, SQL, etc."
   }
 ]

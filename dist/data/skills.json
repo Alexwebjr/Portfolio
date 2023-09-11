@@ -3,180 +3,231 @@
     "name": "HTML",
     "imageUrl": "html.jpg",
     "category": ["front-end"],
-    "certificates": []
+    "certificates": [],
+    "yearExperiences": 6
   },
   {
     "name": "CSS",
     "imageUrl": "css.jpg",
     "category": ["front-end"],
-    "certificates": []
+    "certificates": [],
+    "yearExperiences": 6
   },
   {
     "name": "Javascript",
     "imageUrl": "node.jpg",
     "category": ["back-end", "front-end"],
-    "certificates": []
+    "certificates": [],
+    "yearExperiences": 6
   },
   {
     "name": "Bootstrap",
     "imageUrl": "css.jpg",
     "category": ["front-end"],
-    "certificates": []
+    "certificates": [],
+    "yearExperiences": 4
   },
   {
     "name": "WordPress",
     "imageUrl": "css.jpg",
     "category": ["front-end"],
-    "certificates": []
+    "certificates": [],
+    "yearExperiences": 6
   },
   {
     "name": "Shopify",
     "imageUrl": "css.jpg",
     "category": ["front-end"],
-    "certificates": []
+    "certificates": [],
+    "yearExperiences": 0
   },
   {
     "name": "C#",
     "imageUrl": "css.jpg",
     "category": ["back-end"],
-    "certificates": []
+    "certificates": [],
+    "yearExperiences": 4
   },
   {
     "name": "ASP.NET",
     "imageUrl": "css.jpg",
     "category": ["back-end"],
-    "certificates": []
+    "certificates": [],
+    "yearExperiences": 4
   },
   {
     "name": "Entity Framework",
     "imageUrl": "css.jpg",
     "category": ["back-end"],
-    "certificates": []
+    "certificates": [],
+    "yearExperiences": 4
   },
   {
     "name": ".NET Core",
     "imageUrl": "css.jpg",
     "category": ["back-end"],
-    "certificates": []
+    "certificates": [],
+    "yearExperiences": 2
   },
   {
     "name": "Microsoft SQL Server",
     "imageUrl": "css.jpg",
     "category": ["back-end"],
-    "certificates": []
+    "certificates": [],
+    "yearExperiences": 4
   },
   {
     "name": "DevExpress",
     "imageUrl": "css.jpg",
     "category": ["back-end"],
-    "certificates": []
+    "certificates": [],
+    "yearExperiences": 2
   },
   {
     "name": "Node.js",
     "imageUrl": "css.jpg",
     "category": ["back-end"],
-    "certificates": []
+    "certificates": [],
+    "yearExperiences": 2
   },
   {
     "name": "Express.js",
     "imageUrl": "css.jpg",
     "category": ["back-end"],
-    "certificates": []
+    "certificates": [],
+    "yearExperiences": 2
   },
   {
     "name": "MongoDB",
     "imageUrl": "css.jpg",
     "category": ["back-end"],
-    "certificates": []
+    "certificates": [],
+    "yearExperiences": 0
   },
   {
     "name": "GraphQL",
     "imageUrl": "css.jpg",
     "category": ["back-end"],
-    "certificates": []
+    "certificates": [],
+    "yearExperiences": 0
   },
   {
     "name": "Deno",
     "imageUrl": "css.jpg",
     "category": ["back-end"],
-    "certificates": []
+    "certificates": [],
+    "yearExperiences": 0
   },
   {
     "name": "Socket.IO",
     "imageUrl": "css.jpg",
     "category": ["back-end"],
-    "certificates": []
+    "certificates": [],
+    "yearExperiences": 2
   },
   {
     "name": "TypeScript",
     "imageUrl": "css.jpg",
     "category": ["back-end"],
-    "certificates": []
+    "certificates": [],
+    "yearExperiences": 1
   },
   {
     "name": "Sequelize",
     "imageUrl": "css.jpg",
     "category": ["back-end"],
-    "certificates": []
+    "certificates": [],
+    "yearExperiences": 0
   },
   {
     "name": "AWS",
     "imageUrl": "css.jpg",
     "category": ["back-end"],
-    "certificates": []
+    "certificates": [],
+    "yearExperiences": 0
   },
   {
     "name": "Microservices",
     "imageUrl": "css.jpg",
     "category": ["back-end"],
-    "certificates": []
+    "certificates": [],
+    "yearExperiences": 0
   },
   {
     "name": "Jest",
     "imageUrl": "css.jpg",
     "category": ["back-end"],
-    "certificates": []
+    "certificates": [],
+    "yearExperiences": 0
   },
   {
     "name": "Vitest",
     "imageUrl": "css.jpg",
     "category": ["back-end"],
-    "certificates": []
+    "certificates": [],
+    "yearExperiences": 0
   },
   {
     "name": "Unit Testing",
     "imageUrl": "css.jpg",
     "category": ["back-end"],
-    "certificates": []
+    "certificates": [],
+    "yearExperiences": 0
   },
   {
     "name": "Vue",
     "imageUrl": "css.jpg",
     "category": ["back-end"],
-    "certificates": []
+    "certificates": [],
+    "yearExperiences": 0
   },
   {
     "name": "Vuex",
     "imageUrl": "css.jpg",
     "category": ["back-end"],
-    "certificates": []
+    "certificates": [],
+    "yearExperiences": 0
   },
   {
     "name": "PHP",
     "imageUrl": "css.jpg",
     "category": ["back-end"],
-    "certificates": []
+    "certificates": [],
+    "yearExperiences": 3
   },
   {
     "name": "Laravel",
     "imageUrl": "css.jpg",
     "category": ["back-end"],
-    "certificates": []
+    "certificates": [],
+    "yearExperiences": 1
   },
   {
     "name": "MySQL",
     "imageUrl": "css.jpg",
     "category": ["back-end"],
-    "certificates": []
+    "certificates": [],
+    "yearExperiences": 5
+  },
+  {
+    "name": "React",
+    "imageUrl": "react.jpg",
+    "category": ["front-end"],
+    "certificates": [],
+    "yearExperiences": 0
+  },
+  {
+    "name": "Redux",
+    "imageUrl": "redux.jpg",
+    "category": ["front-end"],
+    "certificates": [],
+    "yearExperiences": 0
+  },
+  {
+    "name": "Secuelize",
+    "imageUrl": "secuelize.jpg",
+    "category": ["back-end"],
+    "certificates": [],
+    "yearExperiences": 0
   }
 ]

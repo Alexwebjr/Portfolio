@@ -83,12 +83,14 @@
                 <span class="link-text">Portfolio</span>
               </a>
             </li>
+            <% /* %>
             <li>
               <a href="#blog" class="nav-anim">
                 <span class="menu-icon lnr lnr-book"></span>
                 <span class="link-text">Blog</span>
               </a>
             </li>
+            <% */ %>
             <li>
               <a href="#contact" class="nav-anim">
                 <span class="menu-icon lnr lnr-envelope"></span>
@@ -247,12 +249,12 @@
                       <div class="info-list-w-icon">
                         <div class="info-block-w-icon">
                           <div class="ci-icon">
-                            <i class="lnr lnr-store"></i>
+                            <i class="lnr lnr-pencil"></i>
                           </div>
                           <div class="ci-text">
-                            <h4>Ecommerce</h4>
+                            <h4>Content Management</h4>
                             <p>
-                              I can design your ecommerce, help you with your inventory, take orders, show your product billboard, receive payments, sent emails, etc.
+                              Developing and customizing websites on popular platforms such as WordPress and Umbraco.
                             </p>
                           </div>
                         </div>
@@ -439,17 +441,35 @@
 
                   <!-- Skills & Certificates -->
                   <div class="col-xs-12 col-sm-5">
-                    <!-- Knowledges -->
-                    <div class="block-title">
-                      <h3>Knowledges / Skills</h3>
-                    </div>
+                    <div>
+                      <!-- Skills -->
+                      <div class="block-title">
+                        <h3>Skills</h3>
+                      </div>
 
-                    <ul class="knowledges">
-                      <% skills.forEach((val,i)=>{ %>
-                      <li><%= val.name %></li>
-                      <% }); %>
-                    </ul>
-                    <!-- End of Knowledges -->
+                      <ul class="knowledges">
+                        <% skills.forEach((val,i)=>{ %>
+                          <% if (val.yearExperiences > 0) { %>
+                        <li><%= val.name %>  (<%= val.yearExperiences %> years)</li>
+                        <% } %>
+                        <% }); %>
+                      </ul>
+                    </div>
+                    <!-- Knowledges -->
+                    <div class="white-space-50"></div>
+                    <div>
+                      <div class="block-title">
+                        <h3>Knowledges</h3>
+                      </div>
+  
+                      <ul class="knowledges">
+                        <% skills.forEach((val,i)=>{ %>
+                          <% if (val.yearExperiences <= 0) { %>
+                        <li><%= val.name %></li>
+                        <% } %>
+                        <% }); %>
+                      </ul>
+                    </div>
                   </div>
                   <!-- End of Skills & Certificates -->
                 </div>
@@ -465,32 +485,30 @@
                   </div>
                 </div>
 
-                <div class="row">
+                <div class="row portfolio-grid">
                   <!-- Certificate  1-->
                   <% certificates.forEach((val)=>{ %>
-                  <div class="col-xs-12 col-sm-4">
-                    <div class="certificate-item clearfix">
-                      <img src="/img/certificates/<%= val.imageUrl %>" alt="logo" />
-                      <!--<div class="certi-logo">
-                        <img src="/img/certificates/<%= val.imageUrl %>" alt="logo" />
-                      </div>
-
-                      <div class="certi-content">
-                        <div class="certi-title">
-                          <h4><%= val.title %></h4>
-                        </div>
-                        <div class="certi-id">
-                          <span><%= val.company %></span>
-                        </div>
-                        <div class="certi-date">
-                          <span><%= val.date %></span>
-                        </div>
-                        <div class="certi-company">
-                          <span></span>
-                        </div>
-                      </div>-->
+                    <figure
+                    class="item lbimage"
+                    data-groups='["category_all", "category_certificates"]'
+                  >
+                    <div class="portfolio-item-img">
+                      <img
+                        src="/img/certificates/<%= val.imageUrl %>"
+                        alt="<%= val.title %>"
+                        title="<%= val.title %>"
+                      />
+                      <a
+                        class="lightbox"
+                        title="<%= val.imageUrl %>"
+                        href="/img/certificates/<%= val.imageUrl %>"
+                      ></a>
                     </div>
-                  </div>
+
+                    <i class="far fa-image"></i>
+                    <h4 class="name"><%= val.title %></h4>
+                    <span class="category">Certificates</span>
+                  </figure>
                   <% }); %>
                   <!-- End of Certificate 1 -->
 
@@ -536,6 +554,13 @@
                         <li>
                           <a
                             class="filter btn btn-sm btn-link"
+                            data-group="category_react"
+                            >React</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="filter btn btn-sm btn-link"
                             data-group="category_vue"
                             >Vue</a
                           >
@@ -558,7 +583,7 @@
                           >
                             <div class="portfolio-item-img">
                               <img
-                                src="img/portfolio/2.jpg"
+                                src="img/portfolio/<%= val.imageUrl %>"
                                 alt="Media Project 2"
                                 title=""
                               />
@@ -582,7 +607,7 @@
               </div>
             </section>
             <!-- End of Portfolio Subpage -->
-
+            <% /* %>
             <!-- Blog Subpage -->
             <section data-id="blog" class="animated-section">
               <div class="section-content">
@@ -634,7 +659,7 @@
               </div>
             </section>
             <!-- End of Blog Subpage -->
-
+            <% */ %>
             <!-- Contact Subpage -->
             <section data-id="contact" class="animated-section">
               <div class="section-content">

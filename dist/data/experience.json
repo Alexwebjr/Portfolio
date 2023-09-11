@@ -1,6 +1,6 @@
 [
   {
-    "role": "Programmer analyst",
+    "role": "Fullstack Developer",
     "company": "9-1-1",
     "url": "https://911.gob.do",
     "from": 2021,
@@ -14,7 +14,10 @@
       "SCRUM",
       "MSSQL",
       "Semantic UI",
-      "Bootstrap"
+      "Bootstrap",
+      "MVC",
+      "Entity Framework",
+      "LINQ"
     ]
   },
   {
@@ -24,7 +27,14 @@
     "from": 2020,
     "to": 2021,
     "description": "Development of systems within educational technology standards that make learning management viable.",
-    "skills": ["JavaScript", "PHP", "Laravel", "MySQL", "Materialize CSS"]
+    "skills": [
+      "JavaScript",
+      "PHP",
+      "Laravel",
+      "MySQL",
+      "Materialize CSS",
+      "WordPress"
+    ]
   },
   {
     "role": "Web Developer",
@@ -33,15 +43,25 @@
     "from": 2019,
     "to": 2020,
     "description": "Development of systems.",
-    "skills": ["JavaScript", "C#", "Asp.Net", "PHP", "Bootstrap", "Zoho CRM"]
+    "skills": [
+      "JavaScript",
+      "C#",
+      "Asp.Net",
+      "PHP",
+      "Bootstrap",
+      "Zoho CRM",
+      "MVC",
+      "Entity Framework",
+      "LINQ"
+    ]
   },
   {
-    "role": "Web Developer",
+    "role": "Fullstack Developer",
     "company": "Freelancer",
     "url": "https://webbless.com.do",
     "from": 2016,
     "to": "current",
-    "description": "Development of websites.",
+    "description": "I have developed a wide variety of websites for companies that provide different services such as: car rental, e-commerce, auto detailing, events, bloggers, etc.",
     "skills": [
       "HTML",
       "CSS",

@@ -1,11 +1,11 @@
 {
   "Fullname": "Alejandro Cortorreal",
-  "Role": ["Computer Engineering", "Full-Stack Developer"],
-  "AboutMe": "Passionate about web development, technologies and music. Believer that personal growth depends on how you manage your days and resources. That is why I seek to develop myself day by day, achieve goals, be a better version of myself that can serve the company/client that needs my skills with excellence.",
-  "Age": 28,
+  "Role": ["Full-Stack Developer", "Computer Engineering"],
+  "AboutMe": "I am a Full Stack Developer with over 4 years of experience in software development and over 6 years in web design. I have expertise in C#, .NET, Node.js, JavaScript, CSS3, HTML5, Git, React, Vue.js, TypeScript, SQL, Wordpress, PHP, and Laravel. I am a dedicated learner who is constantly seeking to expand my skills and develop clean, organized, and scalable code that meets the needs of the company or team.",
+  "Age": 29,
   "Residense": "Dominican Republic",
-  "Address": "Santo Domingo, Santo Domingo Norte",
-  "email": ["alexwebjr@gmail.com", "alejandrocortorreal18@gmail.com"],
+  "Address": "Santo Domingo",
+  "email": ["alexwebjr@gmail.com"],
   "Phone": "+1 849 284 1274",
   "links": [
     {
@@ -20,7 +20,7 @@
     },
     {
       "name": "instagram",
-      "url": "https://www.instagram.com/alexweb18",
+      "url": "https://www.instagram.com/alexwebjr",
       "icon": "fa-instagram"
     },
     {

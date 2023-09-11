@@ -1,8 +1,38 @@
 [
   {
+    "title": "Video Vigilance APP",
+    "description": "Resource planning system for the HR department.",
+    "imageUrl": "portfolio-intranet.jpg",
+    "date": "2023",
+    "url": "#",
+    "category": "C#/ASP.NET",
+    "skill_slug": ["\"category_all\"", "\"category_asp\""],
+    "skills": []
+  },
+  {
+    "title": "RRHH APP",
+    "description": "Resource planning system for the HR department.",
+    "imageUrl": "portfolio-intranet.jpg",
+    "date": "2022",
+    "url": "#",
+    "category": "C#/ASP.NET",
+    "skill_slug": ["\"category_all\"", "\"category_asp\""],
+    "skills": []
+  },
+  {
+    "title": "Survey APP",
+    "description": "Resource planning system for the HR department.",
+    "imageUrl": "portfolio-intranet.jpg",
+    "date": "2021",
+    "url": "#",
+    "category": "C#/ASP.NET",
+    "skill_slug": ["\"category_all\"", "\"category_asp\""],
+    "skills": []
+  },
+  {
     "title": "Tasalo",
     "description": "Request and pay appraisal online.",
-    "imageUrl": "natour.jpg",
+    "imageUrl": "portfolio-tasalo.jpg",
     "date": "2019",
     "url": "http://tasalo.com",
     "category": "C#/ASP.NET",
@@ -10,9 +40,73 @@
     "skills": []
   },
   {
+    "title": "Empleos y Mas",
+    "description": "Employment website",
+    "imageUrl": "portfolio-intranet.jpg",
+    "date": "2023",
+    "url": "https://github.com/Alexwebjr/Empleos",
+    "category": "Node.js, React",
+    "skill_slug": [
+      "\"category_all\"",
+      "\"category_nodejs\"",
+      "\"category_react\""
+    ],
+    "skills": []
+  },
+  {
+    "title": "Pokemon Game",
+    "description": "Webapp",
+    "imageUrl": "portfolio-pokemon.jpg",
+    "date": "06/06/2022",
+    "url": "https://vue-pokegames.netlify.app",
+    "category": "Vue.js",
+    "skill_slug": ["\"category_all\"", "\"category_vue\""],
+    "skills": []
+  },
+  {
+    "title": "Kids Inspiring",
+    "description": "Website, services, branding, educational",
+    "imageUrl": "portfolio-kids.jpg",
+    "date": "01/01/2023",
+    "url": "https://kidsinspiring.edu.do",
+    "category": "Wordpress",
+    "skill_slug": ["\"category_all\"", "\"category_wordpress\""],
+    "skills": []
+  },
+  {
+    "title": "ASISTE",
+    "description": "Website, services, branding",
+    "imageUrl": "portfolio-asiste.jpg",
+    "date": "01/01/2023",
+    "url": "https://asistebs.com",
+    "category": "Wordpress",
+    "skill_slug": ["\"category_all\"", "\"category_wordpress\""],
+    "skills": []
+  },
+  {
+    "title": "JUSTECH",
+    "description": "Website, services, branding, technology",
+    "imageUrl": "portfolio-justech.jpg",
+    "date": "12/12/2022",
+    "url": "https://justech.do",
+    "category": "Wordpress",
+    "skill_slug": ["\"category_all\"", "\"category_wordpress\""],
+    "skills": []
+  },
+  {
+    "title": "Personal Blog",
+    "description": "Website, blog, branding",
+    "imageUrl": "portfolio-rossely.jpg",
+    "date": "01/01/2020",
+    "url": "https://rosselycortorreal.com",
+    "category": "Wordpress",
+    "skill_slug": ["\"category_all\"", "\"category_wordpress\""],
+    "skills": []
+  },
+  {
     "title": "Leja Car Rental",
-    "description": "Website, mailings, services, online car rental.",
-    "imageUrl": "natour.jpg",
+    "description": "Website, mailings, services, online car rental",
+    "imageUrl": "portfolio-leja.jpg",
     "date": "06/06/2020",
     "url": "https://leja.com.do",
     "category": "Wordpress",
@@ -21,8 +115,8 @@
   },
   {
     "title": "Cocodrilo Auto Detailing",
-    "description": "Website, mailings, services, online appointments.",
-    "imageUrl": "natour.jpg",
+    "description": "Website, mailings, services, online appointments",
+    "imageUrl": "portfolio-cocodrilo.jpg",
     "date": "06/06/2019",
     "url": "https://cocodriloautodetailing.com",
     "category": "Wordpress",
@@ -31,8 +125,8 @@
   },
   {
     "title": "Zion Optical",
-    "description": "Website, mailings, services.",
-    "imageUrl": "natour.jpg",
+    "description": "Website, mailings, services",
+    "imageUrl": "portfolio-zion.jpg",
     "date": "06/06/2017",
     "url": "https://zionopticalrd.com",
     "category": "Wordpress",
@@ -41,8 +135,8 @@
   },
   {
     "title": "COMSUMA L.L.C.",
-    "description": "Website, mailings, services.",
-    "imageUrl": "natour.jpg",
+    "description": "Website, mailings, services",
+    "imageUrl": "portfolio-comsuma.jpg",
     "date": "06/06/2016",
     "url": "https://comsuma.com",
     "category": "Wordpress",
