@@ -67,7 +67,7 @@
 
     $('#contact_form').on('submit', function (e) {
       if (!e.isDefaultPrevented()) {
-        var url = '/ContactMail';
+        var url = $(this).attr('action');
 
         $.ajax({
           type: 'POST',
