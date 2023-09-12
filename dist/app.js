@@ -31,11 +31,15 @@ const dotenv = __importStar(require("dotenv"));
 dotenv.config({ path: './config.env' });
 const express_1 = __importDefault(require("express"));
 const body_parser_1 = require("body-parser");
+const cors_1 = __importDefault(require("cors"));
 const homeRoutes_1 = __importDefault(require("./routes/homeRoutes"));
 const app = (0, express_1.default)();
 //-------------------------------------
 //--------------- Parser
 app.use((0, body_parser_1.json)());
+app.use((0, body_parser_1.urlencoded)({ extended: false }));
+//::::::====== Cors ======::::::
+app.use((0, cors_1.default)());
 //::::::====== STATIC ======::::::
 app.use(express_1.default.static(path_1.default.join(__dirname, 'public'))); //static HTML
 //::::::====== VIEWS ======::::::

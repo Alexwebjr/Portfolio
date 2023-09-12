@@ -3,7 +3,8 @@ import * as dotenv from 'dotenv';
 dotenv.config({ path: './config.env' });
 import express, { Request, Response, NextFunction } from 'express';
 import ejs from 'ejs';
-import { json } from 'body-parser';
+import { json, urlencoded } from 'body-parser';
+import cors from 'cors';
 
 import homeRoutes from './routes/homeRoutes';
 
@@ -11,6 +12,10 @@ const app = express();
 //-------------------------------------
 //--------------- Parser
 app.use(json());
+app.use(urlencoded({ extended: false }));
+
+//::::::====== Cors ======::::::
+app.use(cors());
 
 //::::::====== STATIC ======::::::
 app.use(express.static(path.join(__dirname, 'public'))); //static HTML
