@@ -4,7 +4,6 @@ import { RequestHandler } from 'express';
 import sgMail from '@sendgrid/mail';
 
 sgMail.setApiKey(process.env.SENDGRID_API_KEY as string);
-console.log(process.env.SENDGRID_API_KEY);
 
 const sendEmail = async (
   name: string,
