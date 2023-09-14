@@ -1,10 +1,11 @@
 import { Router } from 'express';
-import { getHome } from '../controllers/homeController';
+import { getHome, getPortfolio } from '../controllers/homeController';
 import { sentMessage } from '../controllers/homeController';
 
 const router = Router();
 
 router.get('/', getHome);
-router.post('/ContactMail', sentMessage);
+router.route('/portfolio/:id').get(getPortfolio);
+router.post('/contactMail', sentMessage);
 
 export default router;

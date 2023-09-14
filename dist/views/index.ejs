@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Alexwebjr - Resume / CV / vCard Template</title>
+    <title>Alexwebjr - Resume / CV</title>
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, maximum-scale=1"
@@ -583,12 +583,12 @@
                           >
                             <div class="portfolio-item-img">
                               <img
-                                src="img/portfolio/<%= val.imageUrl %>"
+                                src="img/portfolio/<%= val.coverImageUrl %>"
                                 alt="Media Project 2"
                                 title=""
                               />
                               <a
-                                href="portfolio-1.html"
+                                href="portfolio/<%= val.id %>"
                                 class="ajax-page-load"
                               ></a>
                             </div>
@@ -709,7 +709,7 @@
                     <form
                       id="contact_form"
                       class="contact-form"
-                      action="/ContactMail"
+                      action="/contactMail"
                       method="post"
                     >
                       <div class="messages"></div>

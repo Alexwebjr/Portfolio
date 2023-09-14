@@ -5,5 +5,6 @@ const homeController_1 = require("../controllers/homeController");
 const homeController_2 = require("../controllers/homeController");
 const router = (0, express_1.Router)();
 router.get('/', homeController_1.getHome);
-router.post('/ContactMail', homeController_2.sentMessage);
+router.route('/portfolio/:id').get(homeController_1.getPortfolio);
+router.post('/contactMail', homeController_2.sentMessage);
 exports.default = router;

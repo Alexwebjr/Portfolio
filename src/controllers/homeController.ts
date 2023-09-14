@@ -79,8 +79,22 @@ export const getHome: RequestHandler = (req, res, next) => {
   });
 };
 
+export const getPortfolio: RequestHandler = (req, res, next) => {
+  const { id } = req.params;
+
+  const portfolios = JSON.parse(
+    fs.readFileSync(
+      path.resolve(`${__dirname}`, '../data/portfolio.json'),
+      'utf-8'
+    )
+  );
+
+  const portfolio = portfolios.find((x: any) => x.id == id);
+
+  res.status(200).render('portfolio', { portfolio });
+};
+
 export const sentMessage: RequestHandler = async (req, res, next) => {
-  //name, email,subject,message
   try {
     const { name, email, subject, message } = req.body;
 

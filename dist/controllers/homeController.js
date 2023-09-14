@@ -3,7 +3,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.sentMessage = exports.getHome = void 0;
+exports.sentMessage = exports.getPortfolio = exports.getHome = void 0;
 const fs_1 = __importDefault(require("fs"));
 const path_1 = __importDefault(require("path"));
 const mail_1 = __importDefault(require("@sendgrid/mail"));
@@ -45,8 +45,14 @@ const getHome = (req, res, next) => {
     });
 };
 exports.getHome = getHome;
+const getPortfolio = (req, res, next) => {
+    const { id } = req.params;
+    const portfolios = JSON.parse(fs_1.default.readFileSync(path_1.default.resolve(`${__dirname}`, '../data/portfolio.json'), 'utf-8'));
+    const portfolio = portfolios.find((x) => x.id == id);
+    res.status(200).render('portfolio', { portfolio });
+};
+exports.getPortfolio = getPortfolio;
 const sentMessage = async (req, res, next) => {
-    //name, email,subject,message
     try {
         const { name, email, subject, message } = req.body;
         await sendEmail(name, email, subject, message);
