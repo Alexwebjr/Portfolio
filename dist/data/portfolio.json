@@ -1,10 +1,12 @@
 [
   {
     "category": "C#/ASP.NET",
-    "coverImageUrl": "portfolio-intranet.jpg",
+    "coverImageUrl": "https://res.cloudinary.com/dczjxgeyn/image/upload/v1694789114/portfolio-img/trx1b2hotwb5aptjxgws.jpg",
     "date": "2023",
     "description": "Application that manages thousands of cameras and emergency management",
-    "galleryImagesUrl": ["portfolio-intranet.jpg"],
+    "galleryImagesUrl": [
+      "https://res.cloudinary.com/dczjxgeyn/image/upload/v1694789114/portfolio-img/trx1b2hotwb5aptjxgws.jpg"
+    ],
     "goals": [],
     "id": 1,
     "skill_slug": ["\"category_all\"", "\"category_asp\""],
@@ -25,10 +27,12 @@
   },
   {
     "category": "C#/ASP.NET",
-    "coverImageUrl": "portfolio-intranet.jpg",
+    "coverImageUrl": "https://res.cloudinary.com/dczjxgeyn/image/upload/v1694789114/portfolio-img/trx1b2hotwb5aptjxgws.jpg",
     "date": "2022",
     "description": "Application that manages the information of thousands of employees",
-    "galleryImagesUrl": ["portfolio-intranet.jpg"],
+    "galleryImagesUrl": [
+      "https://res.cloudinary.com/dczjxgeyn/image/upload/v1694789114/portfolio-img/trx1b2hotwb5aptjxgws.jpg"
+    ],
     "goals": [],
     "id": 2,
     "skill_slug": ["\"category_all\"", "\"category_asp\""],
@@ -50,10 +54,12 @@
   },
   {
     "category": "C#/ASP.NET",
-    "coverImageUrl": "portfolio-intranet.jpg",
+    "coverImageUrl": "https://res.cloudinary.com/dczjxgeyn/image/upload/v1694789114/portfolio-img/trx1b2hotwb5aptjxgws.jpg",
     "date": "2021",
     "description": "Application that manages quality surveys for emergency management",
-    "galleryImagesUrl": ["portfolio-intranet.jpg"],
+    "galleryImagesUrl": [
+      "https://res.cloudinary.com/dczjxgeyn/image/upload/v1694789114/portfolio-img/trx1b2hotwb5aptjxgws.jpg"
+    ],
     "goals": [],
     "id": 3,
     "skill_slug": ["\"category_all\"", "\"category_asp\""],
@@ -75,10 +81,12 @@
   },
   {
     "category": "C#/ASP.NET",
-    "coverImageUrl": "portfolio-tasalo.jpg",
+    "coverImageUrl": "https://res.cloudinary.com/dczjxgeyn/image/upload/v1694789523/portfolio-img/amqfamif0tmloug2knpn.jpg",
     "date": "2019",
     "description": "Request and pay appraisal online",
-    "galleryImagesUrl": ["portfolio-tasalo.jpg"],
+    "galleryImagesUrl": [
+      "https://res.cloudinary.com/dczjxgeyn/image/upload/v1694789523/portfolio-img/amqfamif0tmloug2knpn.jpg"
+    ],
     "goals": [
       "Integrated with Zoho CRM API",
       "Integrated with Azul API",
@@ -104,10 +112,12 @@
   },
   {
     "category": "Node.js, React",
-    "coverImageUrl": "portfolio-intranet.jpg",
+    "coverImageUrl": "https://res.cloudinary.com/dczjxgeyn/image/upload/v1695149288/portfolio-img/wwmkjx0b6zh3lwtov07o.jpg",
     "date": "2023",
     "description": "Application to manage job offers, and dynamically manage Google ads",
-    "galleryImagesUrl": ["portfolio-intranet.jpg"],
+    "galleryImagesUrl": [
+      "https://res.cloudinary.com/dczjxgeyn/image/upload/v1695149288/portfolio-img/wwmkjx0b6zh3lwtov07o.jpg"
+    ],
     "goals": [
       "MySQL as Data base",
       "Secuelize as ORM",
@@ -136,10 +146,12 @@
   },
   {
     "category": "Node.js",
-    "coverImageUrl": "portfolio-intranet.jpg",
+    "coverImageUrl": "https://res.cloudinary.com/dczjxgeyn/image/upload/v1695149246/portfolio-img/bscsvzjwczsl8qa1pkpa.jpg",
     "date": "2022",
     "description": "Application for event management",
-    "galleryImagesUrl": ["portfolio-intranet.jpg"],
+    "galleryImagesUrl": [
+      "https://res.cloudinary.com/dczjxgeyn/image/upload/v1695149246/portfolio-img/bscsvzjwczsl8qa1pkpa.jpg"
+    ],
     "goals": [
       "MongoDB as Data Base",
       "Mongoose as ORM",
@@ -162,10 +174,12 @@
   },
   {
     "category": "Vue.js",
-    "coverImageUrl": "portfolio-pokemon.jpg",
+    "coverImageUrl": "https://res.cloudinary.com/dczjxgeyn/image/upload/v1694789462/portfolio-img/ymojuwqclb0rag09wyv0.jpg",
     "date": "06/06/2022",
     "description": "Pokemon Game",
-    "galleryImagesUrl": ["portfolio-pokemon.jpg"],
+    "galleryImagesUrl": [
+      "https://res.cloudinary.com/dczjxgeyn/image/upload/v1694789462/portfolio-img/ymojuwqclb0rag09wyv0.jpg"
+    ],
     "goals": [],
     "id": 6,
     "skill_slug": ["\"category_all\"", "\"category_vue\""],
@@ -176,10 +190,12 @@
   },
   {
     "category": "Wordpress",
-    "coverImageUrl": "portfolio-kids.jpg",
+    "coverImageUrl": "https://res.cloudinary.com/dczjxgeyn/image/upload/v1694789403/portfolio-img/n7cdr5ugh1pgytdjnfkf.jpg",
     "date": "01/04/2023",
     "description": "Website, services, branding, educational",
-    "galleryImagesUrl": ["portfolio-kids.jpg"],
+    "galleryImagesUrl": [
+      "https://res.cloudinary.com/dczjxgeyn/image/upload/v1694789403/portfolio-img/n7cdr5ugh1pgytdjnfkf.jpg"
+    ],
     "goals": [],
     "id": 7,
     "skill_slug": ["\"category_all\"", "\"category_wordpress\""],
@@ -190,10 +206,12 @@
   },
   {
     "category": "Wordpress",
-    "coverImageUrl": "portfolio-asiste.jpg",
+    "coverImageUrl": "https://res.cloudinary.com/dczjxgeyn/image/upload/v1694789298/portfolio-img/tz5evsz5pgr2amwsrwsn.jpg",
     "date": "01/01/2023",
     "description": "Website, services, branding",
-    "galleryImagesUrl": ["portfolio-asiste.jpg"],
+    "galleryImagesUrl": [
+      "https://res.cloudinary.com/dczjxgeyn/image/upload/v1694789298/portfolio-img/tz5evsz5pgr2amwsrwsn.jpg"
+    ],
     "goals": [],
     "id": 8,
     "skill_slug": ["\"category_all\"", "\"category_wordpress\""],
@@ -204,10 +222,12 @@
   },
   {
     "category": "Wordpress",
-    "coverImageUrl": "portfolio-justech.jpg",
+    "coverImageUrl": "https://res.cloudinary.com/dczjxgeyn/image/upload/v1694789374/portfolio-img/uvcjzoic2mqxoi618byq.jpg",
     "date": "01/10/2022",
     "description": "Website, services, branding, technology",
-    "galleryImagesUrl": ["portfolio-justech.jpg"],
+    "galleryImagesUrl": [
+      "https://res.cloudinary.com/dczjxgeyn/image/upload/v1694789374/portfolio-img/uvcjzoic2mqxoi618byq.jpg"
+    ],
     "goals": [],
     "id": 9,
     "skill_slug": ["\"category_all\"", "\"category_wordpress\""],
@@ -218,10 +238,12 @@
   },
   {
     "category": "Wordpress",
-    "coverImageUrl": "portfolio-rossely.jpg",
+    "coverImageUrl": "https://res.cloudinary.com/dczjxgeyn/image/upload/v1694789491/portfolio-img/c08eto6lmwhl9kr3mn7q.jpg",
     "date": "01/01/2020",
     "description": "Website, blog, branding",
-    "galleryImagesUrl": ["portfolio-rossely.jpg"],
+    "galleryImagesUrl": [
+      "https://res.cloudinary.com/dczjxgeyn/image/upload/v1694789491/portfolio-img/c08eto6lmwhl9kr3mn7q.jpg"
+    ],
     "goals": [],
     "id": 10,
     "summary": "Website, blog, branding",
@@ -232,10 +254,12 @@
   },
   {
     "category": "Wordpress",
-    "coverImageUrl": "portfolio-leja.jpg",
+    "coverImageUrl": "https://res.cloudinary.com/dczjxgeyn/image/upload/v1694789436/portfolio-img/wgq1x07hzkgpehnzgm74.jpg",
     "date": "01/12/2019",
     "description": "Website, mailings, services, online car rental",
-    "galleryImagesUrl": ["portfolio-leja.jpg"],
+    "galleryImagesUrl": [
+      "https://res.cloudinary.com/dczjxgeyn/image/upload/v1694789436/portfolio-img/wgq1x07hzkgpehnzgm74.jpg"
+    ],
     "goals": [],
     "id": 11,
     "skill_slug": ["\"category_all\"", "\"category_wordpress\""],
@@ -246,10 +270,12 @@
   },
   {
     "category": "Wordpress",
-    "coverImageUrl": "portfolio-cocodrilo.jpg",
+    "coverImageUrl": "https://res.cloudinary.com/dczjxgeyn/image/upload/v1694789236/portfolio-img/i69bgh0hld9qe77koplf.jpg",
     "date": "06/06/2019",
     "description": "Website, mailings, services, online appointments",
-    "galleryImagesUrl": ["portfolio-cocodrilo.jpg"],
+    "galleryImagesUrl": [
+      "https://res.cloudinary.com/dczjxgeyn/image/upload/v1694789236/portfolio-img/i69bgh0hld9qe77koplf.jpg"
+    ],
     "goals": [],
     "id": 12,
     "skill_slug": ["\"category_all\"", "\"category_wordpress\""],
@@ -260,10 +286,12 @@
   },
   {
     "category": "Wordpress",
-    "coverImageUrl": "portfolio-zion.jpg",
+    "coverImageUrl": "https://res.cloudinary.com/dczjxgeyn/image/upload/v1694789602/portfolio-img/rg6fpebxt391ufxm4mpp.jpg",
     "date": "06/06/2017",
     "description": "Website, mailings, services",
-    "galleryImagesUrl": ["portfolio-zion.jpg"],
+    "galleryImagesUrl": [
+      "https://res.cloudinary.com/dczjxgeyn/image/upload/v1694789602/portfolio-img/rg6fpebxt391ufxm4mpp.jpg"
+    ],
     "goals": [],
     "id": 13,
     "skill_slug": ["\"category_all\"", "\"category_wordpress\""],
@@ -274,10 +302,12 @@
   },
   {
     "category": "Wordpress",
-    "coverImageUrl": "portfolio-comsuma.jpg",
+    "coverImageUrl": "https://res.cloudinary.com/dczjxgeyn/image/upload/v1694789342/portfolio-img/rqshxeecmyc9nvovxypc.jpg",
     "date": "06/06/2016",
     "description": "Website, mailings, services",
-    "galleryImagesUrl": ["portfolio-comsuma.jpg"],
+    "galleryImagesUrl": [
+      "https://res.cloudinary.com/dczjxgeyn/image/upload/v1694789342/portfolio-img/rqshxeecmyc9nvovxypc.jpg"
+    ],
     "goals": [],
     "id": 14,
     "skill_slug": ["\"category_all\"", "\"category_wordpress\""],

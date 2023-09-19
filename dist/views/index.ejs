@@ -17,7 +17,7 @@
       content="vcard, resposnive, retina, resume, jquery, css3, bootstrap, Material CV, portfolio"
     />
     <meta name="author" content="lmpixels" />
-    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="shortcut icon" href="fav.jpg" />
 
     <link rel="stylesheet" href="css/reset.css" type="text/css" />
     <link rel="stylesheet" href="css/bootstrap-grid.min.css" type="text/css" />
@@ -112,7 +112,7 @@
           </div>
 
           <div class="header-buttons">
-            <a href="</pdf/resume.pdf>" target="_blank" class="btn btn-primary">Download CV</a>
+            <a href="<%= about.resumeUrl %>" target="_blank" class="btn btn-primary">Download CV</a>
           </div>
 
           <div class="copyrights">
@@ -479,7 +479,7 @@
                           >
                             <div class="portfolio-item-img">
                               <img
-                                src="img/portfolio/<%= val.coverImageUrl %>"
+                                src="<%= val.coverImageUrl %>"
                                 alt="Media Project 2"
                                 title=""
                               />
