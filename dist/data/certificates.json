@@ -1,42 +1,42 @@
 [
   {
     "title": "Microservices",
-    "imageUrl": "Microservices.jpg",
+    "imageUrl": "https://res.cloudinary.com/dczjxgeyn/image/upload/v1694789808/portfolio-img/ew9x8boaawhpebf6sfrj.jpg",
     "url": "aws.pdf",
     "company": "Coursera",
     "date": "12/12/2018"
   },
   {
     "title": "Unit Testing",
-    "imageUrl": "Unit Testing.jpg",
+    "imageUrl": "https://res.cloudinary.com/dczjxgeyn/image/upload/v1694789866/portfolio-img/taibbfsm6kvjttp1si2k.jpg",
     "url": "aws.pdf",
     "company": "Coursera",
     "date": "12/12/2018"
   },
   {
     "title": "AWS",
-    "imageUrl": "aws.jpg",
+    "imageUrl": "https://res.cloudinary.com/dczjxgeyn/image/upload/v1694789738/portfolio-img/zkisxniujthez8yn6rpc.jpg",
     "url": "aws.pdf",
     "company": "Coursera",
     "date": "12/12/2018"
   },
   {
     "title": "Node.js",
-    "imageUrl": "nodejs.jpg",
+    "imageUrl": "https://res.cloudinary.com/dczjxgeyn/image/upload/v1694790270/portfolio-img/q0jzvfkrgwapycokf3m9.jpg",
     "url": "node.pdf",
     "company": "UDEMY",
     "date": "12/12/2018"
   },
   {
     "title": "TypeScript",
-    "imageUrl": "typescript.jpg",
+    "imageUrl": "https://res.cloudinary.com/dczjxgeyn/image/upload/v1694789836/portfolio-img/lyj03mumif6mzscgnlhu.jpg",
     "url": "typescript.pdf",
     "company": "UDEMY",
     "date": "12/12/2018"
   },
   {
     "title": "JavaScript",
-    "imageUrl": "JavaScript2.jpg",
+    "imageUrl": "https://res.cloudinary.com/dczjxgeyn/image/upload/v1694789772/portfolio-img/ib4qlj8khpwwn5dtkhbi.jpg",
     "url": "aws.pdf",
     "company": "Coursera",
     "date": "12/12/2018"

@@ -1,3 +1,5 @@
 /node_modules
 config.env
 /Notes
+src/template_base
+dist/public/img/*

@@ -105,6 +105,13 @@
     "yearExperiences": 0
   },
   {
+    "name": "Mongoose",
+    "imageUrl": "css.jpg",
+    "category": ["back-end"],
+    "certificates": [],
+    "yearExperiences": 0
+  },
+  {
     "name": "GraphQL",
     "imageUrl": "css.jpg",
     "category": ["back-end"],
@@ -156,35 +163,35 @@
   {
     "name": "Jest",
     "imageUrl": "css.jpg",
-    "category": ["back-end"],
+    "category": ["back-end", "front-end"],
     "certificates": [],
     "yearExperiences": 0
   },
   {
     "name": "Vitest",
     "imageUrl": "css.jpg",
-    "category": ["back-end"],
+    "category": ["back-end", "front-end"],
     "certificates": [],
     "yearExperiences": 0
   },
   {
     "name": "Unit Testing",
     "imageUrl": "css.jpg",
-    "category": ["back-end"],
+    "category": ["back-end", "front-end"],
     "certificates": [],
     "yearExperiences": 0
   },
   {
     "name": "Vue",
     "imageUrl": "css.jpg",
-    "category": ["back-end"],
+    "category": ["front-end"],
     "certificates": [],
     "yearExperiences": 0
   },
   {
     "name": "Vuex",
     "imageUrl": "css.jpg",
-    "category": ["back-end"],
+    "category": ["front-end"],
     "certificates": [],
     "yearExperiences": 0
   },
@@ -224,9 +231,44 @@
     "yearExperiences": 0
   },
   {
+    "name": "MUI",
+    "imageUrl": "css.jpg",
+    "category": ["front-end"],
+    "certificates": [],
+    "yearExperiences": 0
+  },
+  {
     "name": "Secuelize",
     "imageUrl": "secuelize.jpg",
     "category": ["back-end"],
+    "certificates": [],
+    "yearExperiences": 0
+  },
+  {
+    "name": "Tailwind CSS",
+    "imageUrl": "css.jpg",
+    "category": ["front-end"],
+    "certificates": [],
+    "yearExperiences": 0
+  },
+  {
+    "name": "Umbraco",
+    "imageUrl": "css.jpg",
+    "category": ["back-end"],
+    "certificates": [],
+    "yearExperiences": 1
+  },
+  {
+    "name": "SCRUM",
+    "imageUrl": "css.jpg",
+    "category": ["back-end", "front-end"],
+    "certificates": [],
+    "yearExperiences": 2
+  },
+  {
+    "name": "Pinia",
+    "imageUrl": "css.jpg",
+    "category": ["back-end", "front-end"],
     "certificates": [],
     "yearExperiences": 0
   }

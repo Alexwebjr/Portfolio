@@ -1,12 +1,14 @@
 {
-  "Fullname": "Alejandro Cortorreal",
-  "Role": ["Full-Stack Developer", "Computer Engineering"],
-  "AboutMe": "I am a Full Stack Developer with over 4 years of experience in software development and over 6 years in web design. I have expertise in C#, .NET, Node.js, JavaScript, CSS3, HTML5, Git, React, Vue.js, TypeScript, SQL, Wordpress, PHP, and Laravel. I am a dedicated learner who is constantly seeking to expand my skills and develop clean, organized, and scalable code that meets the needs of the company or team.",
-  "Age": 29,
-  "Residense": "Dominican Republic",
-  "Address": "Santo Domingo",
+  "fullname": "Alejandro Cortorreal",
+  "role": ["Full-Stack Developer", "Computer Engineering"],
+  "aboutMe": "I am a Full Stack Developer with over 4 years of experience in software development and over 6 years in web design. I have expertise in C#, .NET, Node.js, JavaScript, CSS3, HTML5, Git, React, Vue.js, TypeScript, SQL, Wordpress, PHP, and Laravel. I am a dedicated learner who is constantly seeking to expand my skills and develop clean, organized, and scalable code that meets the needs of the company or team.",
+  "age": 29,
+  "residense": "Dominican Republic",
+  "address": "Santo Domingo",
   "email": ["alexwebjr@gmail.com"],
-  "Phone": "+1 849 284 1274",
+  "phone": "+1 849 284 1274",
+  "imageUrl": "https://res.cloudinary.com/dczjxgeyn/image/upload/v1694789683/portfolio-img/tgq9amowx699qia5kqr7.jpg",
+  "resumeUrl": "https://res.cloudinary.com/dczjxgeyn/image/upload/v1694800293/portfolio-img/npmslb42cpoadceij5wl.pdf",
   "links": [
     {
       "name": "linkedin",
@@ -24,9 +26,9 @@
       "icon": "fa-instagram"
     },
     {
-      "name": "facebook",
-      "url": "https://www.facebook.com/alejandrocortorreal18",
-      "icon": "fa-facebook-f"
+      "name": "github",
+      "url": "https://github.com/Alexwebjr?tab=repositories",
+      "icon": "fa-github"
     }
   ]
 }
